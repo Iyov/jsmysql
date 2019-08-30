@@ -1,25 +1,46 @@
-#JSmySQL
+# JSmySQL
 
-Ejemplo de un CRUD en nodeJS con mySQL
+Sistema que usa nodeJS con mySQL
 
 ## Dependencias
 
-Dentro de la carpeta debes del proiyecto debes escribir:
+Dentro de la carpeta debes del proyecto debes escribir en la terminal:
 
-Framework de nodeJS
+Framework de nodeJS para la creación de app backend
 ### `npm install express`
+
+Integración del motor de plantillas en express
+### `npm install express-handlebars`
+
+Gestiona las sesiones del sistema
+### `npm install express-session`
 
 Conectar nodeJS a mySQL
 ### `npm install mysql`
 
+Almacena las sessiones en la BD
+### `npm install express-mysql-session`
+
 Integra express con mySQL y gestiona las conexiones
 ### `npm install express-myconnection`
 
-Muestra las peticiones al servidor
+Crea logs de las peticiones al servidor
 ### `npm install morgan`
 
-Motor de plantillas
-### `npm install ejs`
+Encripta las contraseñas
+### `npm install bcryptjs`
+
+Modulo para autenticar y manejar el login de usuario, -local es un complemento para nuestra BD
+### `npm install passport passport-local`
+
+Convierte los timestamps de la BD en un formato: 2 min ago, 2 hr ago, etc
+### `npm install timeago.js`
+
+Muestra mensajes error y éxito
+### `npm install connect-flash`
+
+Valida los datos que el usuario envía
+### `npm install express-validator`
 
 Reinicia el servidor ante cada cambio, sirve para desarrollo
 ### `npm install nodemon -D`
