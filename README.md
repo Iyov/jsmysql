@@ -13,7 +13,7 @@ Integración del motor de plantillas en express
 ### `npm install express-handlebars`
 
 Gestiona las sesiones del sistema
-### `npm install express-session`
+### `npm install `
 
 Conectar nodeJS a mySQL
 ### `npm install mysql`
@@ -44,3 +44,6 @@ Valida los datos que el usuario envía
 
 Reinicia el servidor ante cada cambio, sirve para desarrollo
 ### `npm install nodemon -D`
+
+Resumen:
+### `npm install express express-handlebars express-session mysql express-mysql-session express-myconnection morgan bcryptjs passport passport-local timeago.js connect-flash express-validator`
