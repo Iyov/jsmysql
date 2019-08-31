@@ -5,4 +5,4 @@ module.exports = {
         password: 'Yahejad777.ms',
         database: 'database_links'
     }
-}
+};
