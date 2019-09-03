@@ -1,6 +1,6 @@
 # JSmySQL
 
-Sistema que usa nodeJS con mySQL
+Sistema que usa nodeJS y mySQL para almacenar links desde internet.
 
 ## Dependencias
 
