@@ -1,6 +1,6 @@
-# JSmySQL
+# JSMySQL
 
-Sistema que usa nodeJS y mySQL para almacenar links desde internet.
+Sistema que usa nodeJS y MySQL para almacenar links desde internet.
 
 ## Dependencias
 
@@ -15,13 +15,13 @@ Integración del motor de plantillas en express
 Gestiona las sesiones del sistema
 ### `npm install `
 
-Conectar nodeJS a mySQL
+Conectar nodeJS a MySQL
 ### `npm install mysql`
 
 Almacena las sessiones en la BD
 ### `npm install express-mysql-session`
 
-Integra express con mySQL y gestiona las conexiones
+Integra express con MySQL y gestiona las conexiones
 ### `npm install express-myconnection`
 
 Crea logs de las peticiones al servidor
