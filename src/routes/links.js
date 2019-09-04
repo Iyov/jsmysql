@@ -14,7 +14,7 @@ router.post('/add', isLoggedIn, async (req, res) => {
         title,
         url,
         description,
-        user_id: 2
+        user_id: req.user.id
     };
     await pool.query('INSERT INTO links SET ?', [newLink]);
     req.flash('success', 'Link guardado correctamente!');
@@ -22,7 +22,7 @@ router.post('/add', isLoggedIn, async (req, res) => {
 });
 
 router.get('/', isLoggedIn, async (req, res) => {
-    const links = await pool.query('SELECT * FROM links');
+    const links = await pool.query('SELECT * FROM links WHERE user_id = ?', [req.user.id]);
     console.log(links);
     res.render('links/list', {links: links});
 });
